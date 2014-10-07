@@ -1,0 +1,3 @@
+@echo off
+cd D:\BiacTracker\application.windows32
+cmd /c java\bin\java.exe -Xms64m -Xmx256m "-Djava.library.path=;lib;." -cp lib\core.jar;lib\gluegen-rt-natives-windows-i586.jar;lib\gluegen-rt.jar;lib\jogl-all-natives-windows-i586.jar;lib\jogl-all.jar;lib\commons-codec-1.6.jar;lib\commons-logging-1.1.3.jar;lib\fluent-hc-4.3.5.jar;lib\httpclient-4.3.5.jar;lib\httpclient-cache-4.3.5.jar;lib\httpcore-4.3.2.jar;lib\httpmime-4.3.5.jar;lib\commons-codec-1.6.jar;lib\json4processing.jar;lib\jssc.jar;lib\serial.jar;lib\controlP5.jar;lib;lib\pde.jar;lib\core.jar;lib\BiacTracker.jar -ea processing.core.PApplet --editor-location=550,300 --external --display=0 BiacTracker --defaultpass=dummypass --defaultport=8080 --serialport=COM3 
